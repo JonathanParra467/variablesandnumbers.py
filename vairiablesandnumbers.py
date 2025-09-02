@@ -1,16 +1,19 @@
-pounds_1 = 65
-pounds_2 = 24
-pounds_3 = 12
-pounds_4 = 34
+#this gives the pounds a value
+pounds_1 = 23
+pounds_2 = 3
+pounds_3 = 14
+pounds_4 = 2
 
-kilograms_1 = 2.20462 
+# this give the kilograms a value
+kilograms_1 = 2.204
 
-ounces_1 = pounds_1 * kilograms_1
-ounces_2 = pounds_2 * kilograms_1
-ounces_3 = pounds_3 * kilograms_1
-ounces_4 = pounds_4 * kilograms_1
-
-print(f"{ounces_1} pounds is equal to {ounces_1:.2f} ounces.")
-print(f"{ounces_2} pounds is equal to {ounces_2:.2f} ounces.")
-print(f"{ounces_3} pounds is equal to {ounces_3:.2f} ounces.")
-print(f"{ounces_4} pounds is equal to {ounces_4:.2f} ounces.")
+#This allows the code to make a multiplicaition awnser to the conversion factor
+conversain_factor_1 = pounds_1 * kilograms_1
+conversain_factor_2 = pounds_2 * kilograms_1
+conversain_factor_3 = pounds_3 * kilograms_1
+conversain_factor_4 = pounds_4 * kilograms_1
+#This help define and write 
+print(f"{conversain_factor_1} pounds is equal to {conversain_factor_1:.2f} ounces.")
+print(f"{conversain_factor_2} pounds is equal to {conversain_factor_2:.2f} ounces.")
+print(f"{conversain_factor_3} pounds is equal to {conversain_factor_3:.2f} ounces.")
+print(f"{conversain_factor_4} pounds is equal to {conversain_factor_4:.2f} ounces.")
