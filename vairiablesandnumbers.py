@@ -1,19 +1,25 @@
+"""
+Create a Python program that converts kilograms to pounds.
+ Use at least four different samples to convert.
+ A sample of the math is provided below; do not use the same example in your program.
+"""
+
 #this gives the pounds a value
-pounds_1 = 23
-pounds_2 = 3
-pounds_3 = 14
-pounds_4 = 2
+conversian_factor = 2.204
 
 # this give the kilograms a value
-kilograms_1 = 2.204
-
+kilograms_1 = 1
+kilograms_2 = 2
+kilograms_3 = 3
+kilograms_4 = 4
 #This allows the code to make a multiplicaition awnser to the conversion factor
-conversain_factor_1 = pounds_1 * kilograms_1
-conversain_factor_2 = pounds_2 * kilograms_1
-conversain_factor_3 = pounds_3 * kilograms_1
-conversain_factor_4 = pounds_4 * kilograms_1
+pounds_1 = kilograms_1 * conversian_factor
+pounds_2 = kilograms_2 * conversian_factor
+pounds_3 = kilograms_3 * conversian_factor
+pounds_4 = kilograms_4 * conversian_factor
+
 #This help define and write 
-print(f"{conversain_factor_1} pounds is equal to {conversain_factor_1:.2f} ounces.")
-print(f"{conversain_factor_2} pounds is equal to {conversain_factor_2:.2f} ounces.")
-print(f"{conversain_factor_3} pounds is equal to {conversain_factor_3:.2f} ounces.")
-print(f"{conversain_factor_4} pounds is equal to {conversain_factor_4:.2f} ounces.")
+print(f"{kilograms_1} kilograms is equal to {pounds_1:.2f} pounds.")
+print(f"{kilograms_2} kilograms is equal to {pounds_2:.2f} pounds.")
+print(f"{kilograms_3} kilograms is equal to {pounds_3:.2f} pounds.")
+print(f"{kilograms_4} kilograms is equal to {pounds_4:.2f} pounds.")
